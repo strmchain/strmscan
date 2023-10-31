@@ -1,0 +1,53 @@
+{
+  "APP_ENV": "prod",
+  "MONGODB_URI": "mongodb://localhost:27017/strmscan",
+  "MONGODB_DEX_URI": "mongodb://localhost:27017/strmdex",
+  "redis": {
+    "host": "redis",
+    "port": 6379,
+    "password": null,
+    "prefix": "StrmScan"
+  },
+  "rabbitmq": {
+    "hostname": "localhost",
+    "port": 5672
+    
+  },
+  "ELASTICSEARCH": "http://localhost:9200",
+  "GetDataFromElasticSearch": true,
+  "MaxBlockIndex": 150000,
+  "logs": {
+    "level": "debug"
+  },
+  "STRMDEX_API": "https://dex.devnet.strmchain.com/",
+  "RELAYER_API": "https://relayer.devnet.strmchain.com/",
+
+  "WEB3_URI": "https://testnet.strmchain.com/",
+  "WEB3_WS_URI": "wss://testnet.strmchain.com/ws",
+  "DEBUG_QUERY": false,
+
+  "BASE_UNIT": "STRM",
+  "PORT": 3333,
+  "DEBUG": "express:*",
+
+  "JWT_SECRET": "$2a$10$zMv2skn0DWEfsZGG91rC/O",
+  "APP_SECRET": "$2a$10$zMv2skn0DWEfsZGG91rC/O",
+
+  "SENDGRID_API_KEY": "",
+  "SENDER_EMAIL": "contact@strmchain.com",
+
+  "BASE_URL": "https://scan.devnet.strmchain.com/",
+  "CLIENT_URL": "http://localhost:3000/",
+  "STRMMASTER_API_URL": "https://master.devnet.strmchain.com",
+
+  "BLOCK_PER_EPOCH": 900,
+  "REWARD": 250,
+  "MASTER_NODE_REWARD_PERCENT": 40,
+  "FOUNDATION_REWARD_PERCENT": 10,
+  "VOTER_REWARD_PERCENT": 50,
+  "LIMITED_RECORDS": 10000,
+
+  "RE_CAPTCHA_SECRET": "RE_CAPTCHA_SECRET",
+
+  "STRMISSUER": "0x7081c72c9dc44686c7b7eab1d338ea137fa9f0d3"
+}
