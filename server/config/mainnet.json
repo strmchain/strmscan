@@ -1,0 +1,55 @@
+{
+  "APP_ENV": "prod",
+  "MONGODB_URI": "mongodb://localhost:27017/strmscan",
+  "MONGODB_DEX_URI": "mongodb://localhost:27017/strmdex",
+  "logs": {
+    "level": "info"
+  },
+  "ELASTICSEARCH": "http://localhost:9200",
+  "GetDataFromElasticSearch": false,
+  "MaxBlockIndex": 16500000,
+  "redis": {
+    "host": "redis",
+    "port": 6379,
+    "password": null,
+    "prefix": "StrmScan"
+  },
+  "rabbitmq": {
+    "hostname": "localhost",
+    "port": 5672
+
+  },
+  "STRMDEX_API": "https://dex.strmchain.com/",
+  "RELAYER_API": "https://relayer.strmchain.com/",
+
+  "WEB3_URI": "http://fullnode_strmscan01:8545",
+  "WEB3_WS_URI": "ws://fullnode_strmscan01:8546",
+  "DEBUG_QUERY": false,
+
+  "BASE_UNIT": "STRM",
+  "PORT": 3333,
+  "DEBUG": "express:*",
+
+  "SENDER_EMAIL": "contact@strmchain.com",
+
+  "BASE_URL": "https://scan.strmchain.com/",
+  "CLIENT_URL": "http://localhost:3000/",
+  "STRMMASTER_API_URL": "https://master.strmchain.com",
+
+  "BLOCK_PER_EPOCH": 900,
+  "REWARD": 250,
+  "MASTER_NODE_REWARD_PERCENT": 40,
+  "FOUNDATION_REWARD_PERCENT": 10,
+  "VOTER_REWARD_PERCENT": 50,
+  "LIMITED_RECORDS": 10000,
+
+  "RE_CAPTCHA_SECRET": "RE_CAPTCHA_SECRET",
+  "twitter": {
+    "consumer_key": "",
+    "consumer_secret": "",
+    "access_token_key": "",
+    "access_token_secret": ""
+  },
+
+  "STRMISSUER": ""
+}
